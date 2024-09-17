@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/ArinGawande/static/css/main.77147d61.css",
-    "main.js": "/ArinGawande/static/js/main.0e4176ec.js",
+    "main.css": "/ArinGawande/static/css/main.5020bbc6.css",
+    "main.js": "/ArinGawande/static/js/main.e78f36d5.js",
     "static/js/453.ed3810f9.chunk.js": "/ArinGawande/static/js/453.ed3810f9.chunk.js",
-    "static/media/chair.png": "/ArinGawande/static/media/chair.e48a74b4cb8d44ceb71d.png",
     "static/media/testimonial1.png": "/ArinGawande/static/media/testimonial1.301deb8d786353a62693.png",
     "static/media/testimonial2.png": "/ArinGawande/static/media/testimonial2.1fdf30c28264c76861f8.png",
     "static/media/testimonial7.png": "/ArinGawande/static/media/testimonial7.3096728eb8daa8454c38.png",
@@ -11,13 +10,14 @@
     "static/media/testimonial3.webp": "/ArinGawande/static/media/testimonial3.f5e28c4250f1dc9dd369.webp",
     "static/media/testimonial6.webp": "/ArinGawande/static/media/testimonial6.6600e5cf9aec1996e923.webp",
     "static/media/testimonial5.webp": "/ArinGawande/static/media/testimonial5.66081337a0cf728f5abe.webp",
+    "static/media/favicon.jpg": "/ArinGawande/static/media/favicon.fa4165b2612d415ac704.jpg",
     "index.html": "/ArinGawande/index.html",
-    "main.77147d61.css.map": "/ArinGawande/static/css/main.77147d61.css.map",
-    "main.0e4176ec.js.map": "/ArinGawande/static/js/main.0e4176ec.js.map",
+    "main.5020bbc6.css.map": "/ArinGawande/static/css/main.5020bbc6.css.map",
+    "main.e78f36d5.js.map": "/ArinGawande/static/js/main.e78f36d5.js.map",
     "453.ed3810f9.chunk.js.map": "/ArinGawande/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77147d61.css",
-    "static/js/main.0e4176ec.js"
+    "static/css/main.5020bbc6.css",
+    "static/js/main.e78f36d5.js"
   ]
 }
