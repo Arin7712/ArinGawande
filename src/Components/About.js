@@ -1,5 +1,6 @@
 import React from "react";
 import image2 from '../testimonial4.webp'; // Importing relevant images only
+import image3 from '../favicon.jpg'
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
       <div className="flex flex-col md:flex-row gap-8 md:gap-8 mt-10 md:mt-14 rounded-[10px]">
         {/* Image Container */}
         <div className="flex-shrink-0">
-          <img src={image2} alt="testimonial" width={500} className="rounded-[10px]" />
+          <img src={image3} alt="testimonial" width={500} className="rounded-[10px]" />
         </div>
 
         {/* Text Container */}

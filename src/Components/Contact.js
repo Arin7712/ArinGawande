@@ -40,30 +40,36 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center mt-10 flex-col ml-0 mr-0 md:ml-20 md:mr-20 md:mt-20 space-y-10">
-        {/* Background Image Section */}
-        <div className="relative w-full md:w-[80%] h-screen md:h-[560px] bg-[url(../public/chair.png)]  bg-cover bg-center rounded-[20px]">
-          <div className="absolute mt-10 flex flex-col items-start justify-start p-4">
-            <form onSubmit={onSubmit} className="text-custom-text-color">
-                <div className='flex flex-col gap-3 mt-4'>
-              <label htmlFor="name">Your name:</label>
-              <input name='name' type='text'placeholder='John Doe' className='w-[300px] rounded-[10px] p-4 bg-black'/>
-              </div>
-              <div className='flex flex-col gap-3 mt-4'>
-              <label htmlFor="email">Your email:</label>
-              <input name='email' type='text' placeholder='johndoe@example.com' className='w-[300px] rounded-[10px] p-4 bg-black'/>
-              </div>
-
-              <div className='flex flex-col gap-3 mt-4'>
-              <label htmlFor="email">Your mesage:</label>
-              <textarea name='email' type='text' placeholder='your message...' className='outline-none resize-none w-[300px] rounded-[10px] p-4 bg-black'/>
-              </div>
-              <button type='submit' className='text-custom-text-color mt-4'>Submit</button>
-
-            </form>
+      <div className='p-4 bg-zinc-700 mt-10 w-fit'>
+      <form action="" className='text-custom-text-color  mt-10'>
+        <div className='flex flex-col gap-4'>
+          <div>
+          <label htmlFor='name'>Your name:</label>
+          </div>
+          <div>
+          <input type="text"  name='name' className='p-4 bg-white rounded-[10px] w-[300px]'/>
           </div>
         </div>
+
+        <div className='flex flex-col gap-4'>
+          <div>
+          <label htmlFor='email'>Your email:</label>
+          </div>
+          <div>
+          <input type="text"  name='email' className='p-4 bg-white rounded-[10px] w-[300px]'/>
+          </div>
         </div>
+
+        <div className='flex flex-col gap-4'>
+          <div>
+          <label htmlFor='message'>Your message:</label>
+          </div>
+          <div>
+          <textarea type="text"  name='message' className='p-4 bg-white rounded-[10px] outline-none resize-none w-[300px]'/>
+          </div>
+        </div>
+      </form>
+      </div>
     </div>
   )
 }
